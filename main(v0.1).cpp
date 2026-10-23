@@ -1,0 +1,145 @@
+#define _CRT_SECURE_NO_WARNINGS  // Disable warnings for unsafe functions (like std::localtime) 
+#include <iostream>             // Input/output streams (std::cout)
+#include <string>              // String data type
+#include <cstdlib>            // General utilities (std::exit)
+#include <chrono>            // Time durations
+#include <thread>           // Thread support and sleeping
+#include <ctime>           // C-style time functions
+
+
+//--Trigger CMDS--//
+
+void showHelp();
+void showTime();
+void Exit();
+void Clear();
+void Pi();
+void Ping();
+void About();
+void handleInvalidCommand(const std::string& cmd);
+
+const std::string REDtxt = "\033[31m";          // Color Red
+const std::string ORANGEtxt = "\033[38;5;214m"; //Color Orange
+const std::string BLUEtxt = "\033[34m";         // Color Blue
+const std::string RESET = "\033[0m";          // Normal Color
+
+
+//--Text Color--//
+
+//---Word Trigger--//
+
+int main() {
+
+
+
+	std::string cmd;
+
+	std::cout << ORANGEtxt << " _ _ _ _____ _     _____ _____ _____ _____ \n";
+	std::cout << ORANGEtxt << "| | | |   __| |   |     |     |     |   __|\n";
+	std::cout << ORANGEtxt << "| | | |   __| |---|   --|  |  | | | |   __|\n";
+	std::cout << ORANGEtxt << "|_____|_____|_____|_____|_____|_|_|_|_____|\n";
+	std::cout << ORANGEtxt << "                                           \n";
+	std::cout << ORANGEtxt << "  >> Type /help for a list of Commands <<\n";
+
+	while (true) {
+
+		std::cin >> cmd;
+
+		if (cmd == "/help" || cmd == "/Help") {
+			showHelp();
+		}
+		else if (cmd == "/ping" || cmd == "//Ping") {
+			Ping();
+		}
+		else if (cmd == "/time" || cmd == "/Time") {
+			showTime();
+		}
+		else if (cmd == "/clear" || cmd == "/Clear") {
+			Clear();
+		}
+		else if (cmd == "exit" || cmd == "Exit") {
+			Exit();
+		}
+		else if (cmd == "/pi" || cmd == "/Pi") {
+			Pi();
+		}
+		else if (cmd == "/about" || cmd == "/About") {
+			About();
+		}
+		else {
+			handleInvalidCommand(cmd);
+		}
+
+	}
+
+}
+
+//--CMD Functions--//
+
+
+void showHelp() {
+	std::cout << "\n--- Available Commands ---\n";
+	std::cout << "/help - Shows this help menu\n\n";
+	std::cout << "/ping - Is the Terminal Responding?\n\n";
+	std::cout << "/time - Shows your device's current time\n\n";
+	std::cout << "/pi - Shows some Digits of Pi\n\n";
+	std::cout << "/clear - Clears the Termianl\n\n";
+	std::cout << "/about - Shows info about the Terminal\n\n";
+	std::cout << "exit - exits the terminal\n\n";
+
+}
+
+void Ping() {
+	std::cout << "Pong!\n";
+}
+
+void showTime() {
+	std::time_t currentTime = std::time(nullptr);
+	std::cout << "Current Time: \n" << std::asctime(std::localtime(&currentTime));
+}
+
+void Clear() {
+	std::cout << "Clearing Termianl...\n";
+
+	std::this_thread::sleep_for(std::chrono::seconds(2));
+
+	std::cout << "\033[2J\033[1;1H";
+
+	std::cout << ORANGEtxt << " _ _ _ _____ _     _____ _____ _____ _____ \n";
+	std::cout << ORANGEtxt << "| | | |   __| |   |     |     |     |   __|\n";
+	std::cout << ORANGEtxt << "| | | |   __| |---|   --|  |  | | | |   __|\n";
+	std::cout << ORANGEtxt << "|_____|_____|_____|_____|_____|_|_|_|_____|\n";
+	std::cout << ORANGEtxt << "                                           \n";
+	std::cout << ORANGEtxt << ">> Type /help for a list of Commands <<\n";
+}
+
+void Pi() {
+	std::cout << "3.1415926535 8979323846 2643383279 5028841971 6939937510 5820974944 5923078164 0628620899 8628034825 3421170679 8214808651 3282306647 0938446095 5058223172 5359408128 4811174502 8410270193 8521105559 6446229489 5493038196 4428810975 6659334461 2847564823 3786783165 2712019091\n";
+}
+
+void About() {
+	std::cout << REDtxt << "Made by Code3x-Dev " << RESET << ORANGEtxt;
+	std::cout << BLUEtxt << "|| Version 0.1\n" << RESET << ORANGEtxt;
+	std::cout << "_______________________________\n\n";
+}
+
+void Exit() {
+	std::cout << "Exiting in 3\n";
+
+	std::this_thread::sleep_for(std::chrono::seconds(1));
+
+	std::cout << "2\n";
+
+	std::this_thread::sleep_for(std::chrono::seconds(1));
+
+	std::cout << "1\n";
+
+	std::this_thread::sleep_for(std::chrono::seconds(1));
+
+	std::exit(0);
+}
+
+void handleInvalidCommand(const std::string& cmd) {
+	std::cout << cmd << " Is Not a known Command\n";
+	std::cout << "Use /help for a List of Commands\n\n";
+}
