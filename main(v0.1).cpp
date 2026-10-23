@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS  // Disable warnings for unsafe functions (like std::localtime
+#define _CRT_SECURE_NO_WARNINGS  // Disable warnings for unsafe functions (like std::localtime)
 #include <iostream>             // Input/output streams (std::cout)
 #include <string>              // String data type
 #include <cstdlib>            // General utilities (std::exit)
