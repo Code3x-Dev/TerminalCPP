@@ -7,8 +7,8 @@
 
 
 # This is my first Repo
-**Looking Foward to Making More Stuff!**
+**Looking Forward to Making More Stuff!**
 ----------------------------------------
-# This is a basic Terminal program witten in C++
+**This is a basic Terminal program written in C++**
 **Using Learncpp.com to skill up!**
 ----------------------------------------
