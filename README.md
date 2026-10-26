@@ -10,5 +10,5 @@
 **Looking Forward to Making More Stuff!**
 ----------------------------------------
 **This is a basic Terminal program written in C++**
-**Using Learncpp.com to skill up!**
 ----------------------------------------
+**Using Learncpp.com to skill up!**
