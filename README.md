@@ -10,4 +10,11 @@ This is a basic Terminal written in C++ (or CPP)
 I'm looking forward to making more stuff. 
 
 Keep in mind this may not be perfect. It's my first Repo
+________________________________________________________
+**What it Does**
+
+It can run basic single-word commands and print stuff to the console
+
+Working on adding multi-word commands such as echo
+
 
