@@ -48,7 +48,7 @@ int main() {
 		if (cmd == "/help" || cmd == "/Help") {
 			showHelp();
 		}
-		else if (cmd == "/ping" || cmd == "//Ping") {
+		else if (cmd == "/ping" || cmd == "/Ping") {
 			Ping();
 		}
 		else if (cmd == "/time" || cmd == "/Time") {
