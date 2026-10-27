@@ -134,7 +134,7 @@ void Pi() {
 
 void About() {
 	std::cout << REDtxt << "Made by Code3x-Dev " << RESET << ORANGEtxt;
-	std::cout << BLUEtxt << "|| Version 0.1\n" << RESET << ORANGEtxt;
+	std::cout << BLUEtxt << "|| Version 0.2\n" << RESET << ORANGEtxt;
 	std::cout << "_________________________________\n\n";
 }
 
