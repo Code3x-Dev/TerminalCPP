@@ -15,8 +15,6 @@ ________________________________________________________
 
 It can run basic single-word commands and print stuff to the console
 
-Working on adding multi-word commands such as echo
-
 First published release coming at version 1
 
 It will hit version 1 after update 0.5!
