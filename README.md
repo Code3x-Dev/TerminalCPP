@@ -19,3 +19,10 @@ First published release coming at version 1
 
 It will hit version 1 after update 0.5!
 ________________________________________________________
+/* 
+ * Copyright © 2026 Code 3-Dev
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License.
+ */
+____________________________________________________________
