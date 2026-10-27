@@ -137,7 +137,7 @@ void Pi() {
 void About() {
 	std::cout << REDtxt << "Made by Code3x-Dev" << RESET << ORANGEtxt;
 	std::cout << Yellowtxt <<"||Click \033]8;;https://github.com/Code3x-Dev/TerminalCPP\033\\for\033]8;;\033\\ Github Page||";
-	std::cout << BLUEtxt << "Version 0.3\n" << RESET << ORANGEtxt;
+	std::cout << BLUEtxt << "Version 0.4\n" << RESET << ORANGEtxt;
 	std::cout << "______________________________________________________\n\n";
 }
 
