@@ -42,12 +42,12 @@ int main() {
     std::string password;
     std::string tried_password;
     
-    std::cout << "                                                              Enter a Username\n\n";
+    std::cout << "Enter a Username\n\n";
     std::cin >> username;
     std::cout << std::endl;
     
     
-    std::cout << "                                                              Create a Password\n\n";
+    std::cout << "Create a Password\n\n";
     std::cin >> password;
     std::cout << std::endl;
     
@@ -55,11 +55,11 @@ int main() {
     
 while (true) {
     
-    std::cout << "                                                              Enter Username\n\n";
+    std::cout << "Enter Username\n\n";
     std::cin >> tried_username;
     std::cout << std::endl;
     
-    std::cout << "                                                              Enter Password\n\n";
+    std::cout << "Enter Password\n\n";
     std::cin >> tried_password;
     std::cout << std::endl;
         
@@ -67,7 +67,7 @@ while (true) {
             break;
     }
     else {
-        std::cout << "                                                          Incorect Username or Password\n\n";
+        std::cout << "Incorect Username or Password\n\n";
     }
     
 }
