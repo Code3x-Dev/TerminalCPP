@@ -1,4 +1,4 @@
-/* 🄯 2026 Code 3-Dev. Open Source under copyleft terms. Attribution 
+/* 🄯 2026 Code-3xDev. Open Source under copyleft terms. Attribution 
 is legally required; failure to retain this credit constitutes a copyright violation. */
 
 
@@ -78,7 +78,8 @@ bool loginUser(std::string& loggedInUser) {
 
     std::cout << "=== Login Screen ===\n";
     std::cout << "Enter Username: ";
-    std::cin >> loggedInUser; 
+    std::cin >> loggedInUser;
+
     
     std::cout << "Enter Password: ";
     std::cin >> tried_password;
@@ -162,6 +163,9 @@ int main() {
 		else if (cmd == "/ping" || cmd == "/Ping") {
 			Ping();
 		}
+		else if (cmd == "/user" || cmd == "/User" || cmd == "/usr" || cmd == "/Usr") {
+		    registerUser();
+		}
 		else if (cmd == "/time" || cmd == "/Time") {
 			showTime();
 		}
@@ -200,6 +204,7 @@ void showHelp() {
 	std::cout << "/pi - Shows some Digits of Pi\n\n";
 	std::cout << "/echo <Words Here> - Repeats your text to the Terminal (You don't use <>)\n\n";
 	std::cout << "/clear | /clr - Clears the Termianl\n\n";
+	std::cout << "/user | /usr Displays the Current User\n\n";
 	std::cout << "/about - Shows info about the Terminal\n\n";
 	std::cout << "exit - exits the terminal\n\n";
 
