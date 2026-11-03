@@ -164,7 +164,7 @@ int main() {
 			Ping();
 		}
 		else if (cmd == "/user" || cmd == "/User" || cmd == "/usr" || cmd == "/Usr") {
-		    registerUser();
+		    currentUser(activeUser);
 		}
 		else if (cmd == "/time" || cmd == "/Time") {
 			showTime();
@@ -212,6 +212,10 @@ void showHelp() {
 
 void Ping() {
 	std::cout << "Pong!\n";
+}
+
+void currentUser(const std::string& username) {
+    std::cout << "Current user: " << username << "\n";
 }
 
 void showTime() {
