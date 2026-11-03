@@ -11,6 +11,8 @@ ________________________________________________________
 * It can run basic multi-word commands and print stuff to the console
 
 * Working on a custom Username and Password system that will run locally
+
+* Working on turning it into an .exe so you don't need a C++ Compiler
 ________________________________________________________
 
  * Copyright 🄯 2026 Code3x-Dev
