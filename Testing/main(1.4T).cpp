@@ -1,4 +1,4 @@
-/* 🄯 2026 Code-3xDev. Open Source under copyleft terms. Attribution 
+/* 🄯 2026 Code3x-Dev. Open Source under copyleft terms. Attribution 
 is legally required; failure to retain this credit constitutes a copyright violation. */
 
 
