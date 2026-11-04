@@ -9,7 +9,7 @@ is legally required; failure to retain this credit constitutes a copyright viola
 #include <chrono>            // Time durations
 #include <thread>           // Thread support and sleeping
 #include <ctime>           // C-style time functions
-#include <fstream>        //Used to Both Read and Right to files
+#include <fstream>
 #include <limits>
 
 
@@ -63,7 +63,7 @@ void registerUser() {
 	if (outFile.is_open()) {
 		outFile << username << " " << hashedPassword << "\n";
 		outFile.close();
-		std::cout << "\nAccount Saved Securely!\n\n";
+		std::cout << "\nAccount saved securely to users.txt!\n\n";
 	} else {
 		std::cout << "\nError: Could not open file to save user.\n\n";
 	}
@@ -85,7 +85,7 @@ bool loginUser(std::string& loggedInUser) {
 	std::cin >> tried_password;
 
 	unsigned long triedHash = hashPassword(tried_password);
-	std::ifstream inFile("user.txt");
+	std::ifstream inFile("users.txt");
 
 	if (inFile.is_open()) {
 		while (inFile >> fileUser >> fileHash) {
@@ -123,10 +123,9 @@ int main() {
 	// Loop until the user successfully logs in
 	while (true) {
 		if (loginUser(activeUser)) { // FIXED: Passed activeUser as the missing argument
-		    std::cout << "\033[2J\033[1;1H";
-		    
-		    std::this_thread::sleep_for(std::chrono::seconds(1));
-		    
+			std::cout << "\033[2J\033[1;1H";
+			std::this_thread::sleep_for(std::chrono::seconds(2));
+			
 			std::cout << "\nLogin Successful! Welcome back, " << activeUser << "\n";
 			break;
 		} else {
@@ -201,7 +200,7 @@ int main() {
 
 //--CMD Functions--//
 /* All Command Functions Once Trigger. Some use void<VaribleHere>(const std::string& cmd) 
-                        to connect functions under int main */
+to connect functions under int main */
 
 void showHelp() {
 	std::cout << "\n--- Available Commands ---\n";
@@ -266,8 +265,8 @@ void About() {
 
 void Exit() {
 	std::cout << "Exiting...\n";
-
-	std::this_thread::sleep_for(std::chrono::seconds(5));
+	
+	std::this_thread::sleep_for(std::chrono::seconds(3));
 
 	std::exit(0);
 }
