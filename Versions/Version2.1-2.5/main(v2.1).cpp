@@ -22,6 +22,7 @@ void Clear();
 void Pi();
 void Ping();
 void About();
+void Logout();
 void Echo(const std::string& cmd);
 void handleInvalidCommand(const std::string& cmd);
 unsigned long hashPassword(const std::string& str);
@@ -172,6 +173,9 @@ int main() {
 		else if (cmd == "/register" || cmd == "/Register" || cmd == "/rgsr" || cmd == "/Rgsr") {
 		    registerUser();
 		}
+		else if (cmd == "/logout" || cmd == "/Logout") {
+		    Logout();
+		}
 		else if (cmd == "/time" || cmd == "/Time") {
 			showTime();
 		}
@@ -233,6 +237,41 @@ void showTime() {
 void Echo(const std::string& cmd) {
 	std::string message = cmd.substr(6); // Removes /echo and just prints what you type.
 	std::cout << message << "\n";
+}
+
+void Logout() {
+    
+    std::this_thread::sleep_for(std::chrono::seconds(2));
+    std::cout << "\033[2J\033[1;1H";	
+    	int choice = 0;
+
+	std::cout << "1. Register a new user\n";
+	std::cout << "2. Log in with an existing user\n";
+	std::cout << "Choose an option (1 or 2): ";
+	std::cin >> choice;
+	std::cout << std::endl;
+
+	if (choice == 1) {
+		registerUser();
+	}
+
+	std::cout << "\033[2J\033[1;1H";
+
+	// Create string in main to store who logged in
+	std::string activeUser;
+
+	// Loop until the user successfully logs in
+	while (true) {
+		if (loginUser(activeUser)) { // FIXED: Passed activeUser as the missing argument
+			std::cout << "\033[2J\033[1;1H";
+			std::this_thread::sleep_for(std::chrono::seconds(2));
+			
+			std::cout << "\nLogin Successful! Welcome back, " << activeUser << "\n";
+			break;
+		} else {
+			std::cout << "\nIncorrect Username or Password. Try again.\n\n";
+		}
+	}
 }
 
 void Clear() {
