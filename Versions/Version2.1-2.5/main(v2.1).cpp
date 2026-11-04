@@ -63,7 +63,7 @@ void registerUser() {
 	if (outFile.is_open()) {
 		outFile << username << " " << hashedPassword << "\n";
 		outFile.close();
-		std::cout << "\nAccount saved securely to users.txt!\n\n";
+		std::cout << "\nAccount Saved Securely!\n\n";
 	} else {
 		std::cout << "\nError: Could not open file to save user.\n\n";
 	}
@@ -260,7 +260,7 @@ void Pi() {
 void About() {
 	std::cout << REDtxt << "Made by Code3x-Dev" << RESET << ORANGEtxt;
 	std::cout << Yellowtxt << "||Click \033]8;;https://github.com/Code3x-Dev/TerminalCPP\033\\Here\033]8;;\033\\ For Github Page||"; // Link to Github Page (only works on some devices)
-	std::cout << BLUEtxt << "Version 0.3\n" << RESET << ORANGEtxt;
+	std::cout << BLUEtxt << "Version 2.1\n" << RESET << ORANGEtxt;
 }
 
 void Exit() {
