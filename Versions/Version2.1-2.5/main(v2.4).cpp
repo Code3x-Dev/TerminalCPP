@@ -1,4 +1,4 @@
-* 🄯 2026 Code3x-Dev. Open Source under copyleft terms. Attribution
+/* 🄯 2026 Code3x-Dev. Open Source under copyleft terms. Attribution
 is legally required; failure to retain this credit constitutes a copyright violation. */
 
 #define _CRT_SECURE_NO_WARNINGS  // Disable warnings for "unsafe" functions (like std::localtime)
