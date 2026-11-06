@@ -6,13 +6,16 @@ Keep in mind this may not be perfect. It's my first Repo
 
 Learn C++ [Here](https://learncpp.com)
 ________________________________________________________
-**What it Does**
+**Update Log**
 
-* It can run basic multi-word commands and print stuff to the console
+Nov 6, 2026
+* Added Calculator
+* Fully removed / before commands
+* V2.4
 
-* Working on a custom Username and Password system that will run locally
+**Working On**
 
-* Working on turning it into an .exe so you don't need a C++ Compiler
+* Adding a custom UI so it doesn't just run in Windows CMD Prompt
 ________________________________________________________
   *Copyright 🄯 2026 Code3x-Dev
   This program is free software: you can redistribute it and/or modify
