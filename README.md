@@ -15,7 +15,7 @@ Nov 6, 2026
 
 **Working On**
 
-* Adding a custom UI so it doesn't just run in Windows CMD Prompt
+* Adding a custom UI so it doesn't just run in Windows CMD Prompt (Will only release in .EXE versions)
 ________________________________________________________
   *Copyright 🄯 2026 Code3x-Dev
   This program is free software: you can redistribute it and/or modify
