@@ -4,7 +4,7 @@ I'm looking forward to making more stuff.
 
 Keep in mind this may not be perfect. It's my first Repo
 
-Currently using (Learncpp.com)[Learncpp.com] to skill up
+Currently using (https://Learncpp.com)[Learncpp.com] to skill up
 ________________________________________________________
 **What it Does**
 
