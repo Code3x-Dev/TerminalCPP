@@ -4,7 +4,7 @@ I'm looking forward to making more stuff.
 
 Keep in mind this may not be perfect. It's my first Repo
 
-Learn C++ [Visit Learncpp](https://learncpp.com)
+Learn C++ [Here](https://learncpp.com)
 ________________________________________________________
 **What it Does**
 
