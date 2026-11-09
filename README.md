@@ -7,7 +7,7 @@ Keep in mind this may not be perfect. It's my first Repo
 Learn C++ [Here](https://learncpp.com)
 
 Online Editor if you don't have VS Code
-[Here](https://www.onlinegdb.com/online_c++_compiler#)
+[Online C++](https://www.onlinegdb.com/online_c++_compiler#)
 ________________________________________________________
 **Update Log**
 
@@ -17,7 +17,7 @@ Nov 6, 2026
 * V2.4
 
 **Working On**
-* Version 3 for the next release! 
+* Version 3 COMING TODAY
 ________________________________________________________
   *Copyright 🄯 2026 Code3x-Dev
   This program is free software: you can redistribute it and/or modify
