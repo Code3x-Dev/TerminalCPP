@@ -14,7 +14,7 @@ Nov 6, 2026
 * V2.4
 
 **Working On**
-* Version 2.5 and Version 3 for the next release! 
+* Version 3 for the next release! 
 ________________________________________________________
   *Copyright 🄯 2026 Code3x-Dev
   This program is free software: you can redistribute it and/or modify
