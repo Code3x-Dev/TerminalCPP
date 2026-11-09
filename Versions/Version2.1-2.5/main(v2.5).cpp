@@ -363,7 +363,11 @@ void Calculator() {
 }
 
 void Calcinfo() {
-    std::cout << "";
+    std::cout << "* Multiplying\n\n";
+    std::cout << "/ Dividing\n\n";
+    std::cout << "+ Adding\n\n";
+    std::cout << "- Subtracting\n\n";
+    std::cout << ">";
 }
 
 void About() {
