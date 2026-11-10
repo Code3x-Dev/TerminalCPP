@@ -17,7 +17,7 @@ Nov 10, 2026
 * V3
 * [Get the Latest Release](https://github.com/Code3x-Dev/TerminalCPP/releases/)
 ________________________________________________________
-  *Copyright 🄯 2026 Code3x-Dev
+  *Copyleft 🄯 2026 Code3x-Dev
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
   the Free Software Foundation, either version 3 of the License.*
