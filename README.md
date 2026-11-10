@@ -14,10 +14,8 @@ ________________________________________________________
 Nov 6, 2026
 * Added Calculator
 * Fully removed / before commands
-* V2.4
-
-**Working On**
-* Version 3 COMING TODAY
+* V3
+* [Get the Latest Release](https://github.com/Code3x-Dev/TerminalCPP/releases/)
 ________________________________________________________
   *Copyright 🄯 2026 Code3x-Dev
   This program is free software: you can redistribute it and/or modify
