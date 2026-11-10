@@ -293,6 +293,8 @@ void Logout() {
 			break;
 		} else {
 			std::cout << "\nIncorrect Username or Password. Try again.\n\n";
+			std::this_thread::sleep_for(std::chrono::seconds(2));
+			std::cout << "\033[2J\033[1;1H";
 		}
 	}
 }
