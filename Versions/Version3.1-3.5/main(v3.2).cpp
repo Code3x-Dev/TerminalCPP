@@ -158,6 +158,7 @@ int main() {
 )";
     
     std::cout << ORANGEtxt << "                                   >> Use  help for a list of Commands <<\n\n";  // radnom spaces to correcly line this up with "Welcome to Terminal"
+    std::cout << ">";
     
 /* All Command Triggers made using a slash or /. Accual Command Functions below int main().
  Some Commands use void<VaribleHere>(const std::string& <otherVarible>) thats so you 
@@ -199,6 +200,7 @@ int main() {
         else if (cmd == "clearhistory" || cmd == "Clearhistory" || cmd == "clrhistory") {
             cmdHistory.clear();
             std::cout << Yellowtxt << "Command History Cleared.\n";
+            std::cout << ">";
         }
 		else if (cmd == "time" || cmd == "Time") {
 			showTime();
@@ -338,6 +340,7 @@ void Print() {
 
 )";
 	std::cout << ORANGEtxt << "                                   >> Use  help for a list of Commands <<\n\n"; //Random spaces to line up with "Welcome to Terminal" probably and easier way to do this ``\_(ツ)_/``
+	std::cout << ">";
 }
 
 void Pi() {
@@ -399,10 +402,11 @@ void About() {
 }
 
 void ShowHistory(const std::vector<std::string>& history) {
-    std::cout << BLUEtxt << "--- Command History ---\n" << RESET;
+    std::cout << BLUEtxt << "--- Command History ---\n" << ORANGEtxt;
     for (size_t i = 0; i < history.size(); ++i) {
         std::cout << "  " << (i + 1) << ": " << history[i] << "\n";
     }
+    std::cout << ">";
 }
 
 void Exit() {
