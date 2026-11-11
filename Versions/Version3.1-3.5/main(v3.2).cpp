@@ -196,7 +196,7 @@ int main() {
 		else if (cmd == "history" || cmd == "History") {
             ShowHistory(cmdHistory);
         }
-        else if (cmd == "clearhistory" || cmd == "Clearhistory") {
+        else if (cmd == "clearhistory" || cmd == "Clearhistory" || cmd == "clrhistory") {
             cmdHistory.clear();
             std::cout << Yellowtxt << "Command History Cleared.\n";
         }
@@ -243,6 +243,8 @@ void showHelp() {
 	std::cout << "time - Shows your device's current time\n\n";
 	std::cout << "calculator | calc - Do some Math!\n\n";
 	std::cout << "caclinfo - Shows what each calculator symbol means\n\n";
+	std::cout << "history - Show you Command History\n\n";
+	std::cout << "clearhistory | clrhistory - Clears your Command History\n\n";
 	std::cout << "pi - Shows some Digits of Pi\n\n";
 	std::cout << "echo <Words Here> - Repeats your text to the Terminal (You don't use <>)\n\n";
 	std::cout << "clear | clr - Clears the Termianl\n\n";
