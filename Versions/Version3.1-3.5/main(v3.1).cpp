@@ -377,7 +377,7 @@ void Calcinfo() {
 void About() {
 	std::cout << REDtxt << "Made by Code3x-Dev" << RESET << ORANGEtxt;
 	std::cout << Yellowtxt << "||Click \033]8;;https://github.com/Code3x-Dev/TerminalCPP\033\\Here\033]8;;\033\\ For Github Page||"; // Link to Github Page (only works on some devices)
-	std::cout << BLUEtxt << "Version 2.4\n" << RESET << ORANGEtxt;
+	std::cout << BLUEtxt << "Version 3.1\n" << RESET << ORANGEtxt;
 	std::cout << ">";
 }
 
