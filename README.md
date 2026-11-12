@@ -18,6 +18,13 @@ Nov 10, 2026
 * Fully removed / before commands
 * V3
 * [Get the Latest Release](https://github.com/Code3x-Dev/TerminalCPP/releases/)
+
+Nov 12, 2026
+* Added command history
+* Added Rand Command
+* Added Calculator Info
+* MAJOR Bug Fixes
+* [Get Version 3.4 Here](https://github.com/Code3x-Dev/TerminalCPP/blob/main/Versions/Version3.1-3.5/main(v3.4).cpp)
 ________________________________________________________
   *Copyleft 🄯 2026 Code3x-Dev
   This program is free software: you can redistribute it and/or modify
