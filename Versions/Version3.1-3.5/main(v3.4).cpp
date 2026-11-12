@@ -57,7 +57,7 @@ void registerUser() {
 	std::string password;
 
 	std::cout << "=== Register New Account ===\n";
-	std::cout << "Enter a Username: ";
+	std::cout << "Enter a Username (NO SPCAES): ";
 	std::cin >> username;
 
 	std::cout << "Create a Password: ";
@@ -70,6 +70,7 @@ void registerUser() {
 		outFile << username << " " << hashedPassword << "\n";
 		outFile.close();
 		std::cout << "\nAccount Saved Securely!\n\n";
+		std::cout << ">";
 	} else {
 		std::cout << "\nError: Could not open file to save user.\n\n";
 	}
@@ -168,7 +169,6 @@ int main() {
   while (true) {
 
 		std::getline(std::cin, cmd);
-		std::cout << ">";
 
 		// FIX: If the user just pressed Enter, skip everything else and start the loop over
 		if (cmd.empty()) {
@@ -260,7 +260,7 @@ void showHelp() {
 	std::cout << "echo <Words Here> - Repeats your text to the Terminal (You don't use <>)\n\n";
 	std::cout << "clear | clr - Clears the Termianl\n\n";
 	std::cout << "user | usr Displays the Current User\n\n";
-	std::cout << "register | rgsr creates a new user\n\n";
+	std::cout << "register | rgsr creates a new user (NO SPACES IN USERNAME)\n\n";
 	std::cout << "logout - Logout of the current session\n\n";
 	std::cout << "about - Shows info about the Terminal\n\n";
 	std::cout << "exit - exits the terminal\n\n";
