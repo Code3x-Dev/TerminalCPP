@@ -11,7 +11,7 @@ Online Editor if you don't have VS Code
 
 Website with **LIVE** updates [C++ Terminal](https://www.onlinegdb.com/XjgsiVtaz)
 
-The **LAST** version for the time being will be v3.5
+The **LAST** version for the time being will be v3.5 (Nov 13, 2026)
 ________________________________________________________
 **Update Log**
 
