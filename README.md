@@ -27,6 +27,11 @@ Nov 12, 2026
 * Added Calculator Info
 * MAJOR Bug Fixes
 * [Get Version 3.4 Here](https://github.com/Code3x-Dev/TerminalCPP/blob/main/Versions/Version3.1-3.5/main(v3.4).cpp)
+
+Nov 13, 2026
+* Bug Fixes
+* Final Version
+* [Get Version 3.4 Here](https://github.com/Code3x-Dev/TerminalCPP/blob/main/Versions/Version3.1-3.5/main(v3.5).cpp)
 ________________________________________________________
   *Copyleft 🄯 2026 Code3x-Dev
   This program is free software: you can redistribute it and/or modify
