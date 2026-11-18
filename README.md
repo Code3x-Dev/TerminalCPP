@@ -30,7 +30,7 @@ Nov 12, 2026
 
 Nov 13, 2026
 * Bug Fixes
-* Final Version
+* Final Version (or at least I thought it lol)
 * [Get Version 3.5 Here](https://github.com/Code3x-Dev/TerminalCPP/blob/main/Versions/Version3.1-3.5/main(v3.5).cpp)
 
 Nov 18, 2026
