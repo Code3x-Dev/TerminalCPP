@@ -35,6 +35,8 @@ Nov 13, 2026
 
 Nov 18, 2026
 * Got bored and added my own word guessing game!
+* Note: You must include words.txt with words for the game to work.
+* [Get Version 4.1 Here](https://github.com/Code3x-Dev/TerminalCPP/blob/main/Versions/Version4.1-4.5/main(v4.1).cpp)
 ________________________________________________________
   *Copyleft 🄯 2026 Code3x-Dev
   This program is free software: you can redistribute it and/or modify
