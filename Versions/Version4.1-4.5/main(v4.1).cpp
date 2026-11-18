@@ -258,6 +258,7 @@ void showHelp() {
 	std::cout << "calculator | calc - Do some Math!\n\n";
 	std::cout << "calcinfo - Shows what each calculator symbol means\n\n";
 	std::cout << "rand - Displays a random number\n\n";
+	std::cout << "words - Play a word guessing game\n\n";
 	std::cout << "history - Show you Command History\n\n";
 	std::cout << "clearhistory | clrhistory - Clears your Command History\n\n";
 	std::cout << "pi - Shows some Digits of Pi\n\n";
