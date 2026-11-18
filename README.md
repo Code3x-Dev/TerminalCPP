@@ -34,6 +34,7 @@ Nov 13, 2026
 * [Get Version 3.5 Here](https://github.com/Code3x-Dev/TerminalCPP/blob/main/Versions/Version3.1-3.5/main(v3.5).cpp)
 
 Nov 18, 2026
+* This will be the published version. Skipping V4
 * Got bored and added my own word guessing game!
 * Note: You must include words.txt with words for the game to work.
 * [Get Version 4.1 Here](https://github.com/Code3x-Dev/TerminalCPP/blob/main/Versions/Version4.1-4.5/main(v4.1).cpp)
